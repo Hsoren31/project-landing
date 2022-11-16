@@ -1,0 +1,47 @@
+.header,
+.container-1,
+.footer {
+    background-color: #1F2937;
+}
+
+.header h1,
+.container-1 h1 {
+    color:#f9faf8;
+}
+.header h1 {
+    font-size: 24px;
+}
+
+.container-1 h1{
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.header li,
+.container-1 p {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.container-1 button,
+.container-4 {
+    background-color: #3882f6;
+}
+
+.container-2 h1,
+.container-3 em {
+    font-size: 36px;
+    color: #1F2937
+}
+
+.container-2 h1 {
+    font-weight: bolder;
+}
+
+.container-3 em {
+    font-weight: light;
+}
+
+.container-3 {
+    background-color: #e5e7eb;
+}
