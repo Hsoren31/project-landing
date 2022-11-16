@@ -1,3 +1,8 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: auto;
+}
+
 .header,
 .container-1,
 .footer {
@@ -10,6 +15,7 @@
 }
 .header h1 {
     font-size: 24px;
+    margin-left: 12px;
 }
 
 .container-1 h1{
@@ -45,3 +51,16 @@
 .container-3 {
     background-color: #e5e7eb;
 }
+
+.header,
+.header ul {
+    display: flex;
+}
+
+.header ul {
+    margin-left: auto;
+    list-style: none;
+    gap: 12px;
+    margin-right: 12px;
+}
+
