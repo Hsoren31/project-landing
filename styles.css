@@ -46,6 +46,8 @@ body {
     justify-content: center;
     align-items: center;
     gap: 12px;
+
+    flex-shrink: 1;
 }
 
 .content {
@@ -67,6 +69,8 @@ body {
     font-size: 48px;
     font-weight: bolder;
     margin: 0;
+
+    flex-shrink: 1;
 }
 
 .container-1 button {
@@ -83,6 +87,47 @@ body {
     background-color: #3882f6;
 }
 
+.container-2 .content {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+
+    width: auto;
+}
+
+.one,
+.two,
+.three,
+.four {
+    width: 100px;
+
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-2 h1 {
+    text-align: center;
+}
+
+.container-2 .box {
+    border: 3px;
+    border-radius: 8px;
+    border-style: solid;
+    border-color:#3882f6;
+    width: 75px;
+    height: 75px;
+    padding: 15px;
+
+    flex: initial;
+}
+
+.container-2 p {
+    flex: initial;
+}
 .container-2 h1,
 .container-3 em {
     font-size: 36px;
