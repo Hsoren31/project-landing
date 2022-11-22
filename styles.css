@@ -160,19 +160,18 @@ body {
 .container-4 {
     display: flex;
     justify-content: center;
-    min-width: 950px;
-    min-height: 200px;
-    margin: 150px 750px;
+    max-width: 950px;
+    min-height: 130px;
 
-    padding: 50px 80px;
+    padding: 2em;
+    margin: 5% 25%;
 }
 
 .container-4 .content {
     display: flex;
     flex-flow: column wrap;
     max-width: 550px;
-
-    min-height: 250px;
+    min-height: 65px;
 }
 
 .container-4 h1,
@@ -186,9 +185,11 @@ body {
     border-radius: 5px;
     border-width: 2px;
     background-color: #3882f6;
-    padding: 4px 20px;
     color: #f9faf8;
     font-weight:bolder;
 
-    margin-left: auto;
+    min-width: 6px;
+    min-height: 48px;
+
+    margin: 5% 2% 5% auto;
 }
